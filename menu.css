@@ -1,0 +1,49 @@
+body {
+    background-color: lightgray;
+}
+
+.menu-principal {
+    min-width: 100%;
+    text-align: center;
+}
+
+.menu-principal h1 {
+    background: #333;
+    color: #fff;
+    border-bottom: solid 15px #1271cf;
+    padding: 10px;
+    margin: 0;
+    font-size: 4.2em;
+    font-style: italic;
+    background-image: url("http://www.seti.com.br/wp-content/uploads/2018/07/Sem-t%C3%ADtulo-2-300x136.png");
+}
+
+.menu-principal nav {
+    display: inline-block;
+    background-color: #fff;
+    min-width: 33.1%;
+
+}
+
+.menu-principal a {
+    display: block;
+    padding: 10px 0px;
+    text-decoration: none;
+    color: #222;
+    font-size: 2.2em;
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(68, 68, 71);
+    
+}
+
+.menu-principal a:hover {
+    background-color: rgba(57, 61, 63, 0.4);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200%;
+}
